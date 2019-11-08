@@ -1,0 +1,47 @@
+@import "../../css/variables.module.css";
+
+.footer {
+    padding: 2em 0;
+    background: var(--color-secondary);
+    transition: background 0.5s ease-out;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper > * {
+    flex-basis: 100%;
+}
+
+.wrapper > div:first-of-type {
+    margin-bottom: 1em;
+}
+
+@media (min-width: 700px) {
+    .wrapper > * {
+        flex-basis: 50%;
+        margin-bottom: 0;
+    }
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+@media (min-width: 700px) {
+    .copyright {
+        text-align: right;
+    }
+}

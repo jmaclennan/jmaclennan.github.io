@@ -1,0 +1,39 @@
+@import "../../css/variables.module.css";
+
+.section {
+    background: var(--color-background-neutral);
+}
+
+/* skills component */
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: -1em;
+    margin-right: -1em;
+    margin-top: -1em;
+}
+
+.heading {
+    text-align: center;
+    border-bottom: solid 1px var(--color-heading-primary);
+    padding-bottom: 0.5em;
+    color: var(--color-heading-secondary);
+}
+
+/* skill component */
+.item {
+    border: solid 1px var(--color-background-neutral-dark);
+    padding: 1.5em 2em 2em;
+    margin: 1em;
+    border-radius: 2px;
+    background: var(--color-background-secondary);
+    color: var(--color-foreground);
+}
+
+@media (min-width: 1000px) {
+    .item {
+        width: calc(50% - 2em);
+    }
+}
