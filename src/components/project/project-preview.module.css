@@ -1,0 +1,102 @@
+@import "../../css/variables.module.css";
+
+.link {
+    text-decoration: none;
+}
+
+/* section and parent list styles */
+
+.section {
+    padding-bottom: 2em;
+}
+
+.noGutter {
+    margin-left: -0.9em;
+    margin-right: -1.4em;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 700px) {
+    .list {
+        margin-bottom: 1.25em;
+    }
+}
+
+.image {
+    border-radius: 0.25em;
+}
+
+.project {
+    margin: 0.25rem 1rem;
+    flex-basis: calc(100% - 2rem);
+}
+
+@media (min-width: 800px) {
+    .project {
+        flex-basis: calc(50% - 2rem);
+    }
+}
+
+@media (min-width: 1000px) {
+    .project {
+        flex-basis: calc(33% - 2rem);
+    }
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+}
+
+.thumbnail {
+    overflow: visible;
+    box-shadow: 5px 5px 5px black;
+}
+
+.project:hover .cta {
+    transform: translateY(0);
+}
+
+.cta {
+    position: absolute;
+    width: 100%;
+    background: var(--color-background-secondary);
+    color: var(--color-foreground);
+    bottom: 0;
+    padding: 0.5em;
+    transform: translateY(101%);
+    transition: transform 0.1s ease-out;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+@media (min-width: 700px) {
+    .cta {
+        padding: 0.25em 0.5em;
+        font-size: 0.75em;
+    }
+}
+
+.heading {
+    font-size: 0.75em;
+    margin: 0 0 0.5em;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--color-heading-secondary);
+    transition: color 0.5s ease-out;
+}
+
+@media (min-width: 700px) {
+    .heading {
+        font-size: 0.9em;
+    }
+}
+
+.footer {
+    padding: 0.5em 0em;
+}

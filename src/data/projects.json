@@ -1,0 +1,229 @@
+[
+    {
+        "id": "mecnav",
+        "name": "MEC Navigation",
+        "thumb": "mec",
+        "year": 2019,
+        "description": "project description",
+        "thumbnail": {
+            "src": "../images/projects/thumbnails/project-mec-nav.jpg"
+        },
+        "images": [
+            {
+                "src": "../images/projects/screenshots/mec/mec-1.png"
+            },
+            {
+                "src": "../images/projects/screenshots/mec/mec-2.png"
+            },
+            {
+                "src": "../images/projects/screenshots/mec/mec-3.png"
+            },
+            {
+                "src": "../images/projects/screenshots/mec/mec-4.png"
+            },
+            {
+                "src": "../images/projects/screenshots/mec/mec-5.png"
+            }
+        ],
+        "copy": [
+            "I developed and implemented a navigation solution to accomodate the growing needs of MEC's merchandising and marketing teams. This new menu system includes two independent components - desktop and mobile - that feed off a single data source. This modular approach allows content of any type to be interpreted and rendered differently for each viewport experience."
+        ],
+        "tools": [
+            "Javascript",
+            "ReactJS",
+            "Redux",
+            "React Spring",
+            "Less",
+            "CSS",
+            "Java"
+        ]
+    },
+    {
+        "id": "nintendoemail",
+        "name": "Nintendo Email Campaigns",
+        "thumb": "nintendo-email",
+        "year": 2017,
+        "thumbnail": {
+            "src": "../images/projects/thumbnails/project-nintendo-email.jpg"
+        },
+        "images": [
+            {
+                "src": "../images/projects/screenshots/nintendoemail/nintendoemail-1.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/nintendoemail/nintendoemail-2.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/nintendoemail/nintendoemail-3.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/nintendoemail/nintendoemail-4.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/nintendoemail/nintendoemail-5.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/nintendoemail/nintendoemail-6.jpg"
+            }
+        ],
+        "copy": [
+            "These responsive emails were developed quickly and efficiently using an email development toolset that I built to automate development and reduce the time needed to produce these complex email campaigns for Nintendo. I also introduced support for HiDPI/Retina images which dramatically improved image quality."
+        ],
+        "description": "project description",
+        "tools": ["PugJS", "Sass", "NodeJS", "Gulp"]
+    },
+    {
+        "id": "marioportal",
+        "name": "Nintendo Portal Sites",
+        "thumb": "nintendo-mario",
+        "year": 2017,
+        "thumbnail": {
+            "src": "../images/projects/thumbnails/project-nintendo-portals.jpg"
+        },
+        "images": [
+            {
+                "src": "../images/projects/screenshots/nintendoportals/nintendo-portals-0.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/nintendoportals/nintendo-portals-1.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/nintendoportals/nintendo-portals-2.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/nintendoportals/nintendo-portals-3.jpg"
+            }
+        ],
+        "copy": [
+            "Designed to introduce new players to the characters of their flagship games, these animation heavy microsites feature interactive character bios and sortable game history listings for the Mario, Kirby and Animal Crossing franchises."
+        ],
+        "description": "project description",
+        "tools": [
+            "Javascript (ES6)",
+            "PugJS",
+            "Greensock Animation Platform (GSAP)",
+            "CSS",
+            "Sass"
+        ]
+    },
+    {
+        "id": "lklaw",
+        "name": "LK Law",
+        "thumb": "lklaw",
+        "year": 2016,
+        "thumbnail": {
+            "src": "../images/projects/thumbnails/project-lklaw.jpg"
+        },
+        "images": [
+            {
+                "src": "../images/projects/screenshots/lklaw/lklaw-1.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/lklaw/lklaw-2.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/lklaw/lklaw-3.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/lklaw/lklaw-4.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/lklaw/lklaw-5.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/lklaw/lklaw-6.jpg"
+            }
+        ],
+        "copy": [
+            "A full redevelopment of LK Law's site features a employee directory that could be searched, sorted and filtered, individual bio pages with print specific stylesheets, service summaries, a blog and careers section."
+        ],
+        "description": "project description",
+        "tools": [
+            "Javascript",
+            "Bootstrap",
+            "Sass",
+            "PHP",
+            "Wordpress",
+            "Advanced Custom Fields"
+        ]
+    },
+    {
+        "id": "iwb",
+        "name": "Indian Wedding Buzz",
+        "thumb": "iwb",
+        "year": 2016,
+        "thumbnail": {
+            "src": "../images/projects/thumbnails/project-iwb.jpg"
+        },
+        "images": [
+            {
+                "src": "../images/projects/screenshots/iwb/iwb-1.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/iwb/iwb-2.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/iwb/iwb-3.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/iwb/iwb-4.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/iwb/iwb-5.jpg"
+            }
+        ],
+        "copy": [
+            "A special interest site focussing on indian weddings, Indian Wedding Buzz is a Wordpress blog that showcases their rich image and video experiences with tight social media integration."
+        ],
+        "description": "project description",
+        "tools": [
+            "Javascript",
+            "Bootstrap",
+            "Sass",
+            "PHP",
+            "Wordpress",
+            "Advanced Custom Fields"
+        ]
+    },
+    {
+        "id": "aw",
+        "name": "A&W Coupons",
+        "thumb": "aw",
+        "year": 2015,
+        "thumbnail": {
+            "src": "../images/projects/thumbnails/project-aw.jpg"
+        },
+        "images": [
+            {
+                "src": "../images/projects/screenshots/aw/aw-1.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/aw/aw-8.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/aw/aw-3.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/aw/aw-4.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/aw/aw-5.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/aw/aw-6.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/aw/aw-7.jpg"
+            },
+            {
+                "src": "../images/projects/screenshots/aw/aw-2.jpg"
+            }
+        ],
+        "copy": [
+            "A&W's coupon site was built by myself, one designer and a back-end developer. The site allows A&W customers to sign up, print or redeem coupons at the restaurant with their mobile devices.",
+            "Awcoupon.ca is supported by a bi-weekly responsive email campaign that entices users back to the site for new deals."
+        ],
+        "description": "project description",
+        "tools": ["Javascript", "PHP", "Laravel", "Less", "CSS"]
+    }
+]

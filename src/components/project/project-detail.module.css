@@ -1,0 +1,62 @@
+@import "../../css/variables.module.css";
+
+.heading {
+    margin: 0;
+    color: var(--color-heading-secondary);
+}
+
+section.description {
+    padding: 2em 0;
+    color: var(--color-foreground);
+    transition: color 0.5s ease-out;
+}
+
+.header {
+    margin-bottom: 1em;
+}
+
+.copy {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 700px) {
+    .copy {
+        flex-wrap: nowrap;
+    }
+}
+
+.description {
+    flex: 0 0 100%;
+}
+
+@media (min-width: 700px) {
+    .description {
+        flex: 0 1 600px;
+    }
+    .description p:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+.tools {
+    flex: 0 0 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 700px) {
+    .tools {
+        padding-left: 2em;
+        flex: 0 1 400px;
+    }
+}
+
+section.images {
+    background: var(--color-background-tertiary);
+}
+
+.image {
+    cursor: pointer;
+}

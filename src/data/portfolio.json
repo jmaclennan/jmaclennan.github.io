@@ -1,0 +1,71 @@
+{
+	"experience": [
+		{
+			"title": "Front End Web Developer",
+			"company": "Mountain Equipment Co-op",
+			"years": [2018, 2019],
+			"contract": true,
+			"notes": [
+				"Worked on Agile teams of UX, UI, developers and a product owner to implement new features as well as maintain existing functionality on MEC.ca",
+				"Built front-end components using Javascript, CSS, Less, React and Redux with test coverage using Jest and Enzyme with thorough code reviews from other team members",
+				"Performed a complete rebuild of MEC.ca’s global header and navigation using React and Redux to provide a scalable and modular solution that supports the requirements of their marketing and merchandising teams"
+			]
+		},
+		{
+			"title": "Front End Web Developer",
+			"company": "We The Collective",
+			"years": [2017, 2018],
+			"contract": true,
+			"notes": [
+				"Maintained and built new features to new and existing multi-lingual websites for Nintendo of America/Canada and The Pokémon Company.",
+				"Built international versions of pre-existing english websites",
+				"Built responsive emails from design for Nintendo",
+				"Rebuilt and maintained We The Collective's email newsletter development process. This project added support for HiDPI images and increased efficiency by automating development tasks."
+			]
+		},
+		{
+			"title": "Front End Web Developer",
+			"company": "Drive Digital",
+			"years": [2016, 2017],
+			"contract": false,
+			"notes": [
+				"Worked on a team of designers and back-end developers to build the front-end of Wordpress websites. Tools included Wordpress, Advanced Custom Fields, PHP/Twig, HTML, JavaScript, Sass, Node, Gulp, Browserify",
+				"Performed maintenance work and developed new features on existing websites",
+				"Rebuilt Drive's front-end workflow and introduced modular, ES6 JS, NPM, Gulp, Browserify, and CSS injection with BrowserSync"
+			]
+		},
+		{
+			"title": "Front End Web Developer",
+			"company": "Lululemon Athletica",
+			"years": [2015],
+			"contract": true,
+			"notes": [
+				"Worked on a team of front-end developers to track and resolve front-end bugs on their global website redesign project",
+				"Troubleshot HTML, CSS and Javascript issues on a large, complex codebase",
+				"Technologies included HTML, Sass / CSS, Javascript, RequireJS, Grunt, Jira"
+			]
+		},
+		{
+			"title": "Full Stack Web Developer",
+			"company": "Rethink Canada",
+			"years": [2013, 2015],
+			"contract": false,
+			"notes": [
+				"Worked with a team of producers, developers and designers to produce websites for high profile clients",
+				"Built both the back and front-ends of multilingual websites from design using Wordpress, PHP, Sass/CSS, Javascript",
+				"Built and tested responsive email and banner adverisement campaigns for national clients"
+			]
+		},
+		{
+			"title": "Front End Web Developer",
+			"company": "Vision Critical",
+			"years": [2012],
+			"contract": false,
+			"notes": [
+				"Worked on a team of two designers and four front-end devs to skin Vision Critical's customer facing survey products",
+				"Skinned and implemented multilingual websites and email campaigns",
+				"Worked closely with account managers to manage technical issues, content revisions and the implementation of new features"
+			]
+		}
+	]
+}

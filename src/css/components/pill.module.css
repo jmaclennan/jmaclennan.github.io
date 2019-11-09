@@ -1,0 +1,16 @@
+@import "../variables.module.css";
+
+.pill {
+    display: inline-block;
+    padding: 2px 0.5em;
+    margin: 0 0.5em 0.5em 0;
+    border-radius: 2em;
+    border-radius: 2px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    color: var(--color-foreground);
+    transition: background 0.5s ease-out, color 0.5s ease-out;
+    background: var(--color-background-secondary);
+    border: solid 1px var(--color-background-tertiary);
+}

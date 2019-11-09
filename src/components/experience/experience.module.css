@@ -1,0 +1,31 @@
+.section-experience {
+    color: var(--color-foreground);
+    transition: color 0.5s ease-out, background 0.5s ease-out;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-square {
+    list-style: square;
+}
+
+.experience {
+    margin: 0 auto 2em auto;
+    max-width: 600px;
+}
+
+.experience:last-of-type {
+    margin-bottom: 0;
+}
+
+.title {
+    margin: 0;
+}
+
+.heading {
+    top: 2em;
+}
